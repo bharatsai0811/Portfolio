@@ -627,18 +627,28 @@ footer {
 }
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
+    height: 20rem;
     width: 23rem;
   }
 
   .bio {
     width: 18.3rem;
   }
-
+  .more-about-container {
+    width: 17.875rem;
+  }
+  .education-container {
+    width: 17.875rem;
+  }
   .project-container {
     width: 17.875rem;
   }
-
+  .experience {
+    margin-top: 2rem;
+  }
+  .experience-container {
+    width: 17.875rem;
+  }
   .contact-form-container {
     max-width: 17.75rem;
   }
