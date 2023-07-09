@@ -302,7 +302,7 @@ nav ul li {
 }
 .experience {
   padding: 32px 0;
-  margin-top: -1rem;
+  margin-top: 0rem;
   margin-bottom: 2rem;
 }
 .experience-header {
@@ -392,6 +392,7 @@ nav ul li {
 }
 
 .projects-container {
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -555,26 +556,31 @@ footer {
     color: black;
   }
   .hero {
-    margin-top: 0rem;
+    margin-top: 2rem;
     flex-direction: column;
     gap: 0;
   }
 
   .hero img {
-    height: 30rem;
+    height: 20rem;
     width: 25rem;
   }
 
   .bio {
-    margin-top: 0rem;
+    margin-top: 4rem;
     width: 20.5rem;
+  }
+  .more-about-container.p {
+    white-space: normal;
+    overflow: initial;
+    text-overflow: initial;
   }
   .more-about-container {
     background-color: silver;
     display: flex;
     padding: 2rem;
     margin-top: 0rem;
-    width: auto;
+    width: 20.875;
     height: auto;
     margin: 0 auto;
     border-radius: 11px;
